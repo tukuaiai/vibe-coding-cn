@@ -81,6 +81,15 @@
 
 ---
 
+## ✉️ 联系方式
+
+- **GitHub**: [tukuaiai](https://github.com/tukuaiai)
+- **Telegram**: [@desci0](https://t.me/desci0)
+- **X (Twitter)**: [@123olp](https://x.com/123olp)
+- **Email**: `tukuai.ai@gmail.com`
+
+---
+
 ### 项目目录结构概览
 
 本项目 `vibe-coding-cn` 的核心结构主要围绕知识管理、AI 提示词的组织与自动化展开。以下是经过整理和简化的目录树及各部分说明：
@@ -177,17 +186,81 @@ backups/
 ```
 
 ```mermaid
-graph TD
-    Need[输入: 需求] --> CP[(coding_prompts 需求澄清/计划化)]
-    CP --> Context[documents/* 上下文文档\nproject-context.md]
-    Context --> SP[(system_prompts 行为约束)]
-    SP --> Exec[执行: AI 结对编程 + 人类审阅]
-    Exec --> Test[自测: 计划内验证 / make test]
-    Test --> Progress[progress.md & README 更新]
-    Progress --> Backup1[backups/一键备份.sh]
-    Progress --> Backup2[backups/快速备份.py]
-    prompts-library -->|生成/维护| CP
-    documents -->|知识基线| Exec
+graph TB
+  %% 语义样式
+  classDef dataFlow stroke:#1565c0,stroke-width:2px;
+  classDef control stroke-dasharray: 3 3,stroke:#8e24aa,stroke-width:1.6px;
+  classDef async stroke-dasharray: 2 4,stroke:#2e7d32,stroke-width:1.6px;
+
+  subgraph 🌍 外部系统与数据源层
+    ext_contrib[社区贡献者]
+    ext_sheet[Google表格 / 外部表格数据]
+    ext_md[外部 Markdown 提示词]
+    ext_api[未来可扩展数据源 / API]
+    ext_contrib --> ext_sheet
+    ext_contrib --> ext_md
+    ext_api -.-> ext_sheet
+  end
+
+  subgraph 🔍 数据接入与采集层
+    excel_raw[prompt_excel/*.xlsx 原始表]
+    md_raw[prompt_docs/外部MD输入]
+    excel_to_docs[prompts-library/scripts/excel_to_docs.py]
+    docs_to_excel[prompts-library/scripts/docs_to_excel.py]
+    ingest_bus[标准化数据帧]
+    ext_sheet --> excel_raw
+    ext_md --> md_raw
+    excel_raw --> excel_to_docs
+    md_raw --> docs_to_excel
+    excel_to_docs --> ingest_bus
+    docs_to_excel --> ingest_bus
+  end
+
+  subgraph ⚙️ 数据处理与智能决策层（核心）
+    validate[字段校验与规范化] --> transform[格式映射转换引擎]
+    transform --> artifacts_md[生成 prompt_docs/规范MD]
+    transform --> artifacts_xlsx[生成 prompt_excel/导出XLSX]
+    orchestrator[main.py · scripts/start_convert.py 调度] -.-> validate
+    orchestrator -.-> transform
+    ingest_bus --> validate
+  end
+
+  subgraph 📥 执行与消费层
+    artifacts_md --> catalog_coding[prompts/coding_prompts 编程链路提示词]
+    artifacts_md --> catalog_system[prompts/system_prompts 行为约束提示词]
+    artifacts_md --> catalog_assist[prompts/assistant_prompts 辅助提示词]
+    artifacts_md --> catalog_user[prompts/user_prompts 用户提示词]
+    artifacts_md --> docs_repo[documents/* 知识库引用]
+    artifacts_md -.-> new_consumer[其他下游/发布渠道]
+    catalog_coding --> ai_flow[AI 结对编程流程]
+    ai_flow --> deliverables[项目上下文 / 计划 / 代码产出]
+  end
+
+  subgraph 👥 用户交互与接口层
+    cli[CLI: python main.py] --> orchestrator
+    makefile[Makefile 任务封装] -.-> cli
+    readme[README.md 使用指南] -.-> cli
+  end
+
+  subgraph 🧱 基础设施与横切能力层
+    git[Git 版本控制] -.-> orchestrator
+    backups[backups/一键备份.sh · backups/快速备份.py] -.-> artifacts_md
+    deps[requirements.txt · scripts/requirements.txt 依赖] -.-> orchestrator
+    config[prompts-library/scripts/config.yaml 配置] -.-> orchestrator
+    monitor[日志/监控（外部接入预留）] -.-> orchestrator
+  end
+
+  %% 横切覆盖示意
+  backups -.-> catalog_coding
+  git -.-> validate
+  config -.-> validate
+
+  %% Legend
+  subgraph Legend[Legend]
+    legend_data[实线箭头：主数据流]
+    legend_ctrl[虚线：控制/配置/调度]
+    legend_async[点虚线：外部/异步接口]
+  end
 ```
 
 ---
@@ -452,5 +525,3 @@ gantt
 **Made with ❤️ and a lot of ☕ by [tukuaiai](https://github.com/tukuaiai),[Nicolas Zullo](https://x.com/NicolasZu)and [123olp](https://x.com/123olp)**
 
 [⬆ 回到顶部](#vibe-coding-终极指南-v12)
-
-</div>
