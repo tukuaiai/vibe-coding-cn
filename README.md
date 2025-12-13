@@ -127,12 +127,15 @@
 *最好只用一等模型，其他的复杂日实测大概率纯浪费时间*
 
 **一等模型**
+
 codex-5.1-max-xhigh；claude-opus-4.5-xhigh；gpt-5.2-xhigh
 
 **二等模型**
+
 claude-sonnet-4.5；kimi-k2-thinking；glm-4.6；gemini-3.0-pro；gemini-2.5-pro
 
 **三等模型**
+
 qwen3；SWE；grok4
 
 ---
