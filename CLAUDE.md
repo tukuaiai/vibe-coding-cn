@@ -1,84 +1,52 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude series models when working with code in this repository.
 
 ## Repository Overview
 
-This is the **Vibe Coding CN** repository - a comprehensive guide and toolset for AI-assisted programming workflows. The project focuses on:
-- Systematic prompt engineering for AI coding assistants
-- Excel ↔ Markdown conversion tools for prompt management
-- Documentation and best practices for vibe coding methodology
+This is the **Vibe Coding CN** repository, a workflow, toolset, and knowledge base for advanced AI-assisted programming. The project's core assets are its extensive `prompts` and `skills` libraries.
 
 ## Key Commands
 
 ### Prompt Library Management
 ```bash
-# Convert Excel prompts to Markdown documentation
+# Enter the library directory
 cd prompts/prompts-library
-python3 main.py
 
-# Non-interactive conversion
-python3 main.py --select "prompt_excel/prompt.xlsx"
-python3 main.py --select "prompt_docs/prompt_docs_2025_1213_080256"
+# Run the interactive conversion tool
+python3 main.py
 ```
 
 ### Development & Maintenance
 ```bash
-# Lint markdown files
+# Lint all markdown files in the repository
 make lint
 
-# Backup project (respects .gitignore)
+# Create a full project backup (respects .gitignore)
 bash backups/一键备份.sh
-# or directly
-python3 backups/快速备份.py
-
-# Install dependencies for prompt library
-cd prompts/prompts-library
-pip install -r requirements.txt
 ```
 
 ## Architecture & Structure
 
 ### Core Directories
-- **`prompts/`** - All AI prompts organized by type
-  - `coding_prompts/` - Development workflow prompts
-  - `system_prompts/` - AI behavior configuration (CLAUDE.md variants 1-10)
-  - `prompts-library/` - Excel↔Markdown conversion tool
-  - `user_prompts/` - User-contributed prompts
-
-- **`documents/`** - Knowledge base and methodology docs
-  - Contains development principles, architecture templates, and experience summaries
-
-- **`libs/`** - Modular code libraries (Python-based)
-  - `common/` - Shared utilities and models
-  - `database/` - Database integration modules
-  - `external/` - Third-party integrations
-
-- **`backups/`** - Project backup utilities
-  - Automated backup with .gitignore compliance
+- **`prompts/`**: The core asset. A massive, well-organized library of prompts.
+  - `coding_prompts/`, `system_prompts/`, `user_prompts/`
+- **`skills/`**: A modular library of skills for the AI, providing domain-specific knowledge for various tools like `ccxt`, `postgresql`, `telegram-dev`, etc.
+- **`documents/`**: The project's knowledge base, containing methodology, principles, and guides.
+- **`prompts/prompts-library/`**: A Python-based tool for converting prompts between Excel and Markdown formats.
+- **`backups/`**: Scripts for project backups.
+- **`libs/`**: Skeleton for shared Python library code.
 
 ### Key Technical Details
-
-1. **Prompt Organization**: Prompts use `(r,c)_` prefix notation for categorization (row,column matrix system)
-
-2. **Conversion Tool**: The prompts-library uses pandas + openpyxl for Excel operations, supports bidirectional conversion with rich CLI interface
-
-3. **System Prompts**: Multiple CLAUDE.md variants (1-10) represent different AI behavior configurations, with version 10 being the latest comprehensive version incorporating augment context engine requirements
-
-4. **Documentation Standards**: All user-facing documentation in Chinese, code/structure in English
+1.  **Prompt Organization**: Prompts use a `(row,col)_` prefix for categorization.
+2.  **Conversion Tool**: The `prompts-library` uses Python with `pandas` and `openpyxl`.
+3.  **Documentation Standard**: User-facing documentation is in Chinese. Code, file names, and structure are in English.
+4.  **Skills**: The `skills` directory provides context and knowledge for specific tools and domains, each with its own `SKILL.md`.
 
 ## Development Workflow
 
 When modifying this repository:
-1. Follow the existing prompt categorization system
-2. Update both Excel and Markdown versions when modifying prompts
-3. Use the conversion tool to maintain consistency
-4. Run backups before major changes
-5. Follow the Chinese(文档)/English(代码) language separation
-
-## Important Notes
-
-- This is a documentation and tooling repository, not a runtime application
-- The Makefile commands are mostly placeholders - actual functionality is in Python scripts
-- Prompt management is the core functionality - always use the conversion tools to maintain consistency
-- The repository serves as a knowledge base for vibe coding best practices
+1.  Follow the existing prompt and skill categorization systems.
+2.  Use the `prompts-library` tool to maintain consistency when updating prompts.
+3.  Run `make lint` after changing any Markdown files.
+4.  Run a backup with `bash backups/一键备份.sh` before any major refactoring.
