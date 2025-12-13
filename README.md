@@ -94,6 +94,8 @@
 - [**Augment**](https://app.augmentcode.com/)，上下文引擎和提示词优化按钮神中神，新手直接用它，点按钮自动帮你写好提示词，懒人必备
 - [**Cursor**](https://cursor.com/)，已经占领用户心智高地，人尽皆知
 - [**Windsurf**](https://windsurf.com/)，新用户有免费额度
+- [**Ollama**](https://ollama.com/)，本地模型 CLI 管理器，拉模型、跑模型一条命令，可用本地部署一些开源的模型
+- [**Warp**](https://www.warp.dev/)，AI 终端，体验不错，写命令和解释错误挺省心
 - [**GitHub Copilot**](https://github.com/copilot)，没深度用过
 - [**Kimi K2**](https://www.kimi.com/)，国产，还行，干脏活和简单任务用，之前 2 元一个 key，一周 1024 次调用，性价比高
 - [**GLM**](https://bigmodel.cn/)，国产，听说很强，体感接近 Claude Sonnet 4
@@ -108,6 +110,13 @@
 - [**NotebookLM**](https://notebooklm.google.com/)，资料 AI 解读、听音频、看思维导图、配合 Nano Banana 图片
 - [**Zread**](https://zread.ai/)，AI 读 GitHub 仓库神器，减少造轮子
 - [**元技能：Skills 的 Skills**](./skills/claude-skills/SKILL.md)，就是生成 Skills 的 Skills
+- [**tmux快捷键大全**](./documents/tmux快捷键大全.md)，远程链接ssh用，再也不怕ssh端了终端会话丢失了
+- [**二哥的Java进阶之路**](https://javabetter.cn/)，里面有小工具的详细配置教程
+- [**tmux**](https://github.com/tmux/tmux)，终端复用神器，一个窗口顶多个终端会话，分屏、会话保持、远程不断线，服务器党 / 多项目并行必备
+- [**nvim**](https://github.com/neovim/neovim)，现代化 Vim，插件生态成熟、性能极强，适合写代码、改配置、SSH 远程干活，键盘流天花板
+- [**LazyVim**](https://github.com/LazyVim/LazyVim)，基于 Neovim 的成体系配置框架，预置 LSP / 补全 / 调试 / Git 等全套能力，开箱即用又能逐步深度定制，不想从零配 nvim 的最优解
+- [**DBeaver**](https://dbeaver.io/)，全能数据库客户端，支持 MySQL / PostgreSQL / SQLite / ClickHouse 等，连本地、服务器、SSH 隧道都很顺，查数据、改表结构、看执行计划都很舒服，工程党必备
+
 
 ---
 
