@@ -105,6 +105,7 @@
 ├── README.md                    # 项目主文档，包含项目概览、使用指南、资源链接等。
 ├── .gitignore                   # Git 忽略文件。
 ├── AGENTS.md                    # AI 代理相关的文档或配置。
+├── CLAUDE.md                    # AI 助手的核心行为准则或配置。
 │
 ├── documents/                   # 存放各类说明文档、经验总结和配置详细说明。
 │   ├── auggie-mcp配置文档.md      # Augment 上下文引擎配置文档。
