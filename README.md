@@ -303,6 +303,20 @@ gantt
 
 ---
 
+## 📋 道
+
+## 📋 法
+
+## 📋 器术
+
+## 📋 器
+- **Claude Opus 4.5**，在 Claude Code 中使用 很贵，但是尼区ios订阅要便宜几百人民币，快+效果好，顶中顶中顶
+- **gpt-5.1-codex.1-codex (xhigh)**，在 Codex CLI 中使用，顶中顶，除了慢其他没得挑，大项目复杂逻辑唯一解
+- **Droid**，这个里面的 Claude Opus 4.5比 Claude Code 还强，顶
+- **Kiro**，这个里面的 Claude Opus 4.5 现在免费，就是cli有点拉，看不到正在运行的情况
+- **gemini**，cli免费用，干脏活，用cc或者codex写好的脚本，拿他来执行可以，整理文档和找思路就它了
+
+
 ## 🚀 入门指南（这里是原作者的，不是我写的，我更新了一下我认为最好的模型）
 要开始 Vibe Coding，你只需要以下两种工具之一：
 - **Claude Opus 4.5**，在 Claude Code 中使用
