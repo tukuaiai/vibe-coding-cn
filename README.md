@@ -54,11 +54,15 @@
 ## 📋 器术
 
 ## 📋 器
-- **Claude Opus 4.5**，在 Claude Code 中使用 很贵，但是尼区ios订阅要便宜几百人民币，快+效果好，顶中顶中顶
-- **gpt-5.1-codex.1-codex (xhigh)**，在 Codex CLI 中使用，顶中顶，除了慢其他没得挑，大项目复杂逻辑唯一解
-- **Droid**，这个里面的 Claude Opus 4.5比 Claude Code 还强，顶
-- **Kiro**，这个里面的 Claude Opus 4.5 现在免费，就是cli有点拉，看不到正在运行的情况
-- **gemini**，cli免费用，干脏活，用cc或者codex写好的脚本，拿他来执行可以，整理文档和找思路就它了
+- **Claude Opus 4.5**，在 Claude Code 中使用 很贵，但是尼区ios订阅要便宜几百人民币，快+效果好，顶中顶中顶，有 cli 和 ide 插件
+- [**gpt-5.1-codex.1-codex (xhigh)**](https://chatgpt.com/codex/)，在 Codex CLI 中使用，顶中顶，除了慢其他没得挑，大项目复杂逻辑唯一解，买chatgpt会员就能用，有 cli 和 ide 插件
+- [**Droid**](https://factory.ai/news/terminal-bench)，这个里面的 Claude Opus 4.5比 Claude Code 还强，顶，有 cli
+- **Kiro**，这个里面的 Claude Opus 4.5 现在免费，就是cli有点拉，看不到正在运行的情况有客户端和 cli
+- **gemini**，cli免费用，干脏活，用cc或者codex写好的脚本，拿他来执行可以，整理文档和找思路就它了有客户端和 cli
+- [**antigravity**](https://antigravity.google/)，谷歌的，可以免费用 Claude Opus 4.5 和 gemini 3.0 pro 大善人
+- [**aistudio**](https://aistudio.google.com/prompts/new_chat)，谷歌家的，免费用 gemini 3.0 pro 和 Nano Banana
+- [**gemini-enterprise**](https://cloud.google.com/gemini-enterprise)，谷歌企业版，现在能免费用 Nano Banana pro
+- [**augment**](https://app.augmentcode.com/)，它的上下文引擎和提示词优化按钮真的神中神中神，小白就用它就行了，点击按钮自动帮你写好提示词，懒人必备
 
 ---
 
