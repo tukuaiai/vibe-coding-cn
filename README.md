@@ -120,7 +120,11 @@
 - [**DBeaver**](https://dbeaver.io/)，全能数据库客户端，支持 MySQL / PostgreSQL / SQLite / ClickHouse 等，连本地、服务器、SSH 隧道都很顺，查数据、改表结构、看执行计划都很舒服，工程党必备
 - [**虚拟卡**](https://www.bybit.com/cards/?ref=YDGAVPN&source=applet_invite)，注册有这个卡你可以注册 aws 赠送的 100 美金的服务器额度，可以用很久，选澳大利亚地区的通过很快
 
-最好只用一等模型，其他的复杂日实测大概率纯浪费时间
+---
+
+## coding模型主观排行榜
+
+*最好只用一等模型，其他的复杂日实测大概率纯浪费时间*
 
 **一等模型**
 codex-5.1-max-xhigh；claude-opus-4.5-xhigh；gpt-5.2-xhigh
