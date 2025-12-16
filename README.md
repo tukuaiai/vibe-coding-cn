@@ -10,9 +10,9 @@
 
 <div align="center">
 
-# vibe coding 至尊超级终极无敌指南 V114514
+# Vibe Coding 指南
 
-**一个通过与 AI 结对编程，将想法变为现实的终极工作站**
+**一个旨在通过与 AI 结对编程，将概念转化为现实的综合工作流程**
 
 ---
 
@@ -29,14 +29,14 @@
   <a href="https://t.me/glue_coding"><img src="https://img.shields.io/badge/chat-telegram-blue?style=for-the-badge&logo=telegram" alt="交流群"></a>
 </p>
 
-[📚 相关文档](#-相关文档)
+[📚 相关文档](#-相关文档与资源)
 [🚀 入门指南](#-入门指南)
 [⚙️ 完整设置流程](#️-完整设置流程)
 [📞 联系方式](#-联系方式)
-[✨ 赞助地址](#-赞助地址)
+[✨ 支持项目](#-支持项目)
 [🤝 参与贡献](#-参与贡献)
 
-本仓库的 ai 解读仓库链接：https://zread.ai/tukuaiai/vibe-coding-cn/1-overview
+本仓库的 AI 解读链接：[zread.ai/tukuaiai/vibe-coding-cn](https://zread.ai/tukuaiai/vibe-coding-cn/1-overview)
 
 </div>
 
@@ -44,15 +44,15 @@
 
 ## 🖼️ 概览
 
-**Vibe Coding** 是一个与 AI 结对编程的终极工作流程，旨在帮助开发者丝滑地将想法变为现实。本指南详细介绍了从项目构思、技术选型、实施规划到具体开发、调试和扩展的全过程，强调以**规划驱动**和**模块化**为核心，避免让 AI 失控导致项目混乱。
+**Vibe Coding** 是一个与 AI 结对编程的综合工作流程，旨在帮助开发者高效地将想法付诸实践。本指南详细介绍了从项目构思、技术选型、实施规划到具体开发、调试和扩展的全过程，强调以**规划驱动**和**模块化**为核心，避免因缺乏有效管理而导致项目陷入混乱。
 
-> **核心理念**: *规划就是一切。* 谨慎让 AI 自主规划，否则你的代码库会变成一团无法管理的乱麻。
+> **核心理念**: *规划是项目成功的基石。* 审慎地引导 AI 进行规划，以确保代码库的可维护性和可管理性。
 
-PS：下面的经验并非通用，具体实践中要分场景，辩证的看
+**注意**：以下经验分享并非普遍适用，请在具体实践中结合场景，辩证采纳。
 
-## 🔑 [元方法](./documents/A%20Formalization%20of%20Recursive%20Self-Optimizing%20Generative%20Systems.md)
+## 🔑 元方法论 (Meta-Methodology)
 
-这个思想的核心是构建一个能够**自我完善**的 AI 系统。我们可以将其分解为以下步骤，以突出其递归的本质：
+该思想的核心是构建一个能够**自我优化**的 AI 系统。其递归本质可分解为以下步骤：
 
 #### 1. 定义核心角色：
 
@@ -62,252 +62,162 @@ PS：下面的经验并非通用，具体实践中要分场景，辩证的看
 #### 2. 描述递归的生命周期：
 
 1.  **创生 (Bootstrap)**:
-    *   用 AI 生成 `α-提示词` 和 `Ω-提示词` 的初始版本 (v1)。
+    *   使用 AI 生成 `α-提示词` 和 `Ω-提示词` 的初始版本 (v1)。
 
 2.  **自省与进化 (Self-Correction & Evolution)**:
-    *   用 `Ω-提示词 (v1)` 去**优化** `α-提示词 (v1)`，得到一个更强大的 `α-提示词 (v2)`。
+    *   使用 `Ω-提示词 (v1)` **优化** `α-提示词 (v1)`，从而得到一个更强大的 `α-提示词 (v2)`。
 
 3.  **创造 (Generation)**:
-    *   用**进化后的** `α-提示词 (v2)` 去生成我们需要的**所有**目标提示词和技能。
+    *   使用**进化后的** `α-提示词 (v2)` 生成所有需要的目标提示词和技能。
 
 4.  **循环与飞跃 (Recursive Loop)**:
-    *   最关键的一步：将新生成的、更强大的产物（甚至包括新版本的 `Ω-提示词`）反馈给系统，再次用于优化 `α-提示词`，从而启动下一轮进化。
+    *   将新生成的、更强大的产物（甚至包括新版本的 `Ω-提示词`）反馈给系统，再次用于优化 `α-提示词`，从而启动下一轮进化。
 
 #### 3. 终极目标：
 
-通过这个永不停止的**递归优化循环**，系统在每一次迭代中都进行**自我超越**，无限逼近我们设定的**理想状态**。
+通过此持续的**递归优化循环**，系统在每次迭代中实现**自我超越**，无限逼近预设的**理想状态**。
 
-## 🧭 道
+## 🧭 原则 (Principles)
 
-* **凡是 ai 能做的，就不要人工做**
-* **一切问题问 ai**
-* **目的主导：开发过程中的一切动作围绕"目的"展开**
-* **上下文是 vibe coding 的第一性要素，垃圾进，垃圾出**
-* **系统性思考，实体，链接，功能/目的，三个维度**
-* **数据与函数即是编程的一切**
-* **输入，处理，输出刻画整个过程**
-* **多问 ai 是什么？，为什么？，怎么做？**
-* **先结构，后代码，一定要规划好框架，不然后面技术债还不完**
-* **奥卡姆剃刀定理，如无必要，勿增代码**
-* **帕累托法则，关注重要的那20%**
-* **逆向思考，先明确你的需求，从需求逆向构建代码**
-* **重复，多试几次，实在不行重新开个窗口，**
-* **专注，极致的专注可以击穿代码，一次只做一件事（神人除外）**
+*   **自动化优先**: 优先利用 AI 自动化可执行的任务。
+*   **AI 咨询**: 将 AI 作为首要信息来源和问题解决方案的顾问。
+*   **目标驱动**: 开发过程中的所有活动都应围绕既定目标展开。
+*   **上下文决定质量**: 上下文的质量直接决定输出的质量（GIGO原则）。
+*   **系统性思维**: 从“实体”、“链接”、“功能/目的”三个维度进行系统性思考。
+*   **编程的本质**: 数据结构与算法是编程的核心。
+*   **流程化**: 使用“输入 -> 处理 -> 输出”的模式来刻画整个工作流程。
+*   **深度提问**: 频繁向 AI 提出“是什么？”、“为什么？”、“怎么做？”以深化理解。
+*   **规划先行**: 先构建清晰的结构和框架，再进行编码，以避免后期产生技术债务。
+*   **奥卡姆剃刀**: 如无必要，勿增实体。保持代码简洁。
+*   **帕累托法则 (80/20 Rule)**: 关注项目中那 20% 的关键部分。
+*   **逆向工程**: 从最终需求出发，逆向构建解决方案。
+*   **迭代与容错**: 鼓励多次尝试，在遇到困难时考虑重置环境或另辟蹊径。
+*   **专注单一任务**: 保持高度专注，一次只解决一个问题，以确保深度和质量。
 
-## 🧩 法
+## 🧩 方法 (Methods)
 
-* **一句话目标 + 非目标**
-* **正交性，功能不要太重复了，（这个分场景）**
-* **能抄不写，不重复造轮子，先问 ai 有没有合适的仓库，下载下来改**
-* **一定要看官方文档，先把官方文档爬下来喂给 ai**
-* **按职责拆模块**
-* **接口先行，实现后补**
-* **一次只改一个模块**
-* **文档即上下文，不是事后补**
+*   **明确边界**: 清晰定义任务的目标和非目标。
+*   **正交性**: 确保功能模块之间职责明确，减少重叠（视具体场景而定）。
+*   **重用优于重写**: 遵循 DRY 原则，优先寻找并复用现有解决方案，而非重复构建。
+*   **官方文档优先**: 在开发前，优先获取并利用官方文档作为 AI 的上下文。
+*   **按职责划分模块**: 基于单一职责原则进行模块拆分。
+*   **接口与实现分离**: 先定义接口，再实现具体逻辑。
+*   **增量式修改**: 每次只修改一个模块，便于追踪和调试。
+*   **文档即上下文**: 将文档撰写融入开发流程，而不是事后补充。
 
-## 🛠️ 术
+## 🛠️ 技术 (Techniques)
 
-* 明确写清：**能改什么，不能改什么**
-* Debug 只给：**预期 vs 实际 + 最小复现**
-* 测试可交给 AI，**断言人审**
-* 代码一多就**切会话**
+*   **明确变更范围**: 在指令中清晰说明允许修改和禁止修改的边界。
+*   **标准化调试信息**: 进行调试时，请提供“预期结果”、“实际表现”及“最小可复现示例”。
+*   **AI 辅助测试**: 可委托 AI 生成测试用例，但断言部分需要人工审查。
+*   **隔离会话**: 当代码库变得复杂时，为不同任务切换独立的会话以保持上下文纯净。
 
-## 📋 器
+## 📋 工具集 (Toolset)
 
-- [**微软大战代码**](https://code.visualstudio.com/)，集成开发环境，初学者地基，你可以在这里手动修改和方便的阅读代码，cursor 更简单直观适合新手，插件现在应该只推荐一个就是 Local History
-- **虚拟环境.venv**，有了这个再也不用装环境了，直接命令 ai 必须安装和全程使用虚拟环境（.venv）（记得写入你的AGENTS或者CLAUDE的md文件的记忆里面）就行了，一键配置好再也不用浪费时间配环境了，主要是适用于 python
-- [**Claude Opus 4.5**](https://claude.ai/new)，在 Claude Code 中使用，很贵，但是尼区 iOS 订阅要便宜几百人民币，快 + 效果好，顶中顶，有 CLI 和 IDE 插件
-- [**gpt-5.1-codex.1-codex (xhigh)**](https://chatgpt.com/codex/)，在 Codex CLI 中使用，顶中顶，除了慢其他没得挑，大项目复杂逻辑唯一解，买 ChatGPT 会员就能用，有 CLI 和 IDE 插件
-- [**Droid**](https://factory.ai/news/terminal-bench)，这里面的 Claude Opus 4.5 体感比 Claude Code 原生还强，顶，有 CLI
-- [**Kiro**](https://kiro.dev/)，这里面的 Claude Opus 4.5 目前免费，就是 CLI 看不到正在运行的情况，没有找到恢复对话，有客户端和 CLI
-- [**Gemini CLI**](https://geminicli.com/)，目前免费用，干脏活用，Claude Code 或 Codex 写好的脚本拿它来执行可以，整理文档和找思路也合适，有客户端和 CLI
-- [**antigravity**](https://antigravity.google/)，谷歌的，可以免费用 Claude Opus 4.5 和 Gemini 3.0 Pro，大善人
-- [**AI Studio**](https://aistudio.google.com/prompts/new_chat)，谷歌家的，免费用 Gemini 3.0 Pro 和 Nano Banana
-- [**Gemini Enterprise**](https://cloud.google.com/gemini-enterprise)，谷歌企业版，目前能免费用 Nano Banana Pro
-- [**Augment**](https://app.augmentcode.com/)，上下文引擎和提示词优化按钮神中神，新手直接用它，点按钮自动帮你写好提示词，懒人必备
-- [**Cursor**](https://cursor.com/)，已经占领用户心智高地，人尽皆知
-- [**Windsurf**](https://windsurf.com/)，新用户有免费额度
-- [**Ollama**](https://ollama.com/)，本地模型 CLI 管理器，拉模型、跑模型一条命令，可用本地部署一些开源的模型
-- [**Warp**](https://www.warp.dev/)，AI 终端，体验不错，写命令和解释错误挺省心
-- [**GitHub Copilot**](https://github.com/copilot)，没深度用过
-- [**Kimi K2**](https://www.kimi.com/)，国产，还行，干脏活和简单任务用，之前 2 元一个 key，一周 1024 次调用，性价比高
-- [**GLM**](https://bigmodel.cn/)，国产，听说很强，体感接近 Claude Sonnet 4
-- [**Qwen**](https://qwenlm.github.io/qwen-code-docs/zh/cli/)，阿里出的，CLI 有免费额度
-- [**提示词库（直接复制粘贴即可用）**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=2093180351#gid=2093180351&range=A1)
-- [**其他编程工具的系统提示词学习库**](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
-- [**Skills 制作器（下好后让 AI 按你的需求生成 Skills）**](https://github.com/yusufkaraaslan/Skill_Seekers)
-- [**元提示词（生成提示词的提示词）**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=1770874220#gid=1770874220)
-- [**通用项目架构模板**](./documents/通用项目架构模板.md)，一键丢给 AI 就能搭好目录结构
-- [**Augment 提示词优化器**](https://app.augmentcode.com/)，提示词优化是真的好用，强烈推荐
-- [**Mermaid Chart**](https://www.mermaidchart.com/)，架构 / 思维导图可视化，做架构图，序列图的时候复制到这里看
-- [**NotebookLM**](https://notebooklm.google.com/)，资料 AI 解读、听音频、看思维导图、配合 Nano Banana 图片
-- [**Zread**](https://zread.ai/)，AI 读 GitHub 仓库神器，减少造轮子
-- [**元技能：Skills 的 Skills**](./skills/claude-skills/SKILL.md)，就是生成 Skills 的 Skills
-- [**tmux快捷键大全**](./documents/tmux快捷键大全.md)，远程链接ssh用，再也不怕ssh端了终端会话丢失了
-- [**二哥的Java进阶之路**](https://javabetter.cn/)，里面有小工具的详细配置教程
-- [**tmux**](https://github.com/tmux/tmux)，终端复用神器，一个窗口顶多个终端会话，分屏、会话保持、远程不断线，服务器党 / 多项目并行必备
-- [**nvim**](https://github.com/neovim/neovim)，现代化 Vim，插件生态成熟、性能极强，适合写代码、改配置、SSH 远程干活，键盘流天花板
-- [**LazyVim**](https://github.com/LazyVim/LazyVim)，基于 Neovim 的成体系配置框架，预置 LSP / 补全 / 调试 / Git 等全套能力，开箱即用又能逐步深度定制，不想从零配 nvim 的最优解
-- [**LazyVim快捷键大全**](./documents/LazyVim快捷键大全.md)，系统掌握 LazyVim 键盘流，提升编码效率
-- [**DBeaver**](https://dbeaver.io/)，全能数据库客户端，支持 MySQL / PostgreSQL / SQLite / ClickHouse 等，连本地、服务器、SSH 隧道都很顺，查数据、改表结构、看执行计划都很舒服，工程党必备
-- [**虚拟卡**](https://www.bybit.com/cards/?ref=YDGAVPN&source=applet_invite)，注册有这个卡你可以注册 aws 赠送的 100 美金的服务器额度，可以用很久，选澳大利亚地区的通过很快
+*   [**Visual Studio Code**](https://code.visualstudio.com/): 功能强大的集成开发环境，适合代码阅读与手动修改。其 `Local History` 插件对新手尤其友好。
+*   **虚拟环境 (.venv)**: 强烈推荐使用，通过指令要求 AI 在虚拟环境中安装和运行依赖，可实现项目环境的一键配置与隔离，特别适用于 Python 开发。
+*   [**Claude 3 Opus**](https://claude.ai/): 在 Claude Code 等平台中使用，性能强大，响应迅速，提供 CLI 和 IDE 插件。
+*   [**GPT-4/GPT-5 Series**](https://chat.openai.com/): 在专用平台（如 Codex CLI）中使用，适用于处理大型项目和复杂逻辑。
+*   [**Gemini Advanced/Pro**](https://gemini.google.com/): 可通过 Gemini CLI 或 Google AI Studio 等多种渠道访问，适合执行脚本、整理文档和探索思路。
+*   [**Ollama**](https://ollama.com/): 本地大模型管理工具，可通过命令行方便地拉取和运行开源模型。
+*   [**Warp**](https://www.warp.dev/): 集成 AI 功能的现代化终端，能有效提升命令行操作和错误排查的效率。
+*   [**Augment**](https://app.augmentcode.com/): 提供强大的上下文引擎和提示词优化功能，有助于新手和懒人快速生成高质量指令。
+*   [**Cursor**](https://cursor.com/): 深度集成 AI 功能的 IDE，已获得广泛的用户认可。
+*   **提示词库**:
+    *   [**在线表格**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=2093180351#gid=2093180351&range=A1): 提供大量可直接复制使用的提示词。
+    *   [**第三方系统提示词库**](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools): 用于学习其他AI工具的系统提示词。
+*   **技能与模板**:
+    *   [**Skills 生成器**](https://github.com/yusufkaraaslan/Skill_Seekers): 可根据需求生成定制化的 Skills。
+    *   [**元提示词**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=1770874220#gid=1770874220): 用于生成提示词的提示词。
+    *   [**通用项目架构模板**](./documents/通用项目架构模板.md): 可用于快速搭建标准化的项目目录结构。
+*   **辅助工具**:
+    *   [**Mermaid Chart**](https://www.mermaidchart.com/): 用于将文本转换为架构图、序列图等可视化图表。
+    *   [**NotebookLM**](https://notebooklm.google.com/): 用于 AI 解读资料、音频和生成思维导图。
+    *   [**Zread**](https://zread.ai/): AI 驱动的 GitHub 仓库阅读工具，有助于快速理解项目和减少重复开发。
+    *   [**tmux**](https://github.com/tmux/tmux): 强大的终端复用工具，支持会话保持、分屏和后台任务，是服务器与多项目开发的利器。
+    *   [**Neovim (nvim)**](https://github.com/neovim/neovim): 高性能的现代化 Vim 编辑器，拥有丰富的插件生态，是键盘流开发者的首选。
+    *   [**LazyVim**](https://www.lazyvim.org/): 开箱即用的 Neovim 配置框架，预置了 LSP、代码补全、调试等全套功能。
+    *   [**DBeaver**](https://dbeaver.io/): 通用数据库管理客户端，支持多种数据库，功能全面，是后端与数据工程师的必备工具。
 
 ---
 
-## coding模型主观排行榜
+## 编码模型性能分级参考
 
-*最好只用一等模型，其他的复杂任务实测大概率纯浪费时间*
+建议只选择第一梯队模型处理复杂任务，以确保最佳效果与效率。
 
-一等模型
-
-codex-5.1-max-xhigh；claude-opus-4.5-xhigh；gpt-5.2-xhigh
-
-二等模型
-
-claude-sonnet-4.5；kimi-k2-thinking；minimax-m2；glm-4.6；gemini-3.0-pro；gemini-2.5-pro
-
-三等模型
-
-qwen3；SWE；grok4
+*   **第一梯队**: `codex-5.1-max-xhigh`, `claude-opus-4.5-xhigh`, `gpt-5.2-xhigh`
+*   **第二梯队**: `claude-sonnet-4.5`, `kimi-k2-thinking`, `minimax-m2`, `glm-4.6`, `gemini-3.0-pro`, `gemini-2.5-pro`
+*   **第三梯队**: `qwen3`, `SWE`, `grok4`
 
 ---
 
-## 📚 相关文档/资源
+## 📚 相关文档与资源
 
-- [**vibecoding交流群**](https://t.me/glue_coding)
-- [**我的频道**](https://t.me/tradecat_ai_channel)
-- [**小登论道：我的学习经验**](./documents/小登论道.md)
-- [**编程书籍推荐**](./documents/编程书籍推荐.md)
-- [**元提示词，生成提示词的提示词**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=1770874220#gid=1770874220)
-- [**元技能 Skills 就是生成 Skills 的 Skills**](./skills/claude-skills/SKILL.md)
-- [**skills技能仓库复制即用**](./skills)
-- [**Skills生成器，把任何资料转agent的Skills（技能）**](https://github.com/yusufkaraaslan/Skill_Seekers)
-- [**google表格提示词数据库，我系统性收集和制作的几百个适用于各个场景的用户提示词和系统提示词在线表格**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=2093180351#gid=2093180351&range=A1)
-- [**系统提示词收集仓库**](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
-- [**prompts-library 提示词库xlsx与md文件夹互转工具与使用说明，有几百个适用于各个领域的提示词与元提示词**](./libs/external/prompts-library/)
-- [**coding_prompts我收集和制作的几十个vibecoding适用的提示词**](./prompts/coding_prompts/)
-- [**代码组织.md**](./documents/代码组织.md)
-- [**关于手机ssh任意位置链接本地计算机，基于frp实现的方法.md**](./documents/关于手机ssh任意位置链接本地计算机，基于frp实现的方法.md)
-- [**工具集.md**](./documents/工具集.md)
-- [**编程之道.md**](./documents/编程之道.md)
-- [**胶水编程.md**](./documents/胶水编程.md)
-- [**gluecoding.md**](./documents/gluecoding.md)
-- [**CONTRIBUTING.md**](./CONTRIBUTING.md)
-- [**CODE_OF_CONDUCT.md**](./CODE_OF_CONDUCT.md)
-- [**系统提示词构建原则.md**](./documents/系统提示词构建原则.md) - 深入探讨构建高效、可靠AI系统提示词的核心原则、沟通互动、任务执行、编码规范与安全防护等全方位指南。
-- [**系统架构可视化生成Mermaid**](./prompts/coding_prompts/系统架构可视化生成Mermaid.md) - 根据项目直接生成 .mmd 导入思维导图网站直观看架构图，序列图等等
-- [**开发经验.md**](./documents/开发经验.md) - 包含变量命名、文件结构、编码规范、系统架构原则、微服务、Redis和消息队列等开发经验与项目规范的详细整理。
-- [**vibe-coding-经验收集.md**](./documents/vibe-coding-经验收集.md) - AI开发最佳实践与系统提示词优化技巧的经验收集。
-- [**通用项目架构模板.md**](./documents/通用项目架构模板.md) - 提供了多种项目类型的标准目录结构、核心设计原则、最佳实践建议及技术选型参考。
-- [**auggie-mcp 详细配置文档**](./documents/auggie-mcp配置文档.md) - augment上下文引擎mcp，非常好用。
-- [**system_prompts/**](./prompts/system_prompts/) - AI开发系统提示词集合，包含多版本开发规范与思维框架（1-8号配置）。
-  - `1/CLAUDE.md` - 开发者行为准则与工程规范
-  - `2/CLAUDE.md` - ultrathink模式与架构可视化规范
-  - `3/CLAUDE.md` - 思维创作哲学与执行确认机制
-  - `4/CLAUDE.md` - Linus级工程师服务认知架构
-  - `5/CLAUDE.md` - 顶级程序员思维框架与代码品味
-  - `6/CLAUDE.md` - 综合版本，整合所有最佳实践
-  - `7/CLAUDE.md` - 推理与规划智能体，专职复杂任务分解与高可靠决策支持
-  - `8/CLAUDE.md` - 最新综合版本，顶级程序员服务Linus级工程师，包含完整元规则与认知架构
-  - `9/CLAUDE.md` - 失败的简化版本，效果不行
-  - `10/CLAUDE.md` - 最新综合版本，加入了augment上下文引擎的使用规范与要求
+*   **交流社区**:
+    *   [Telegram 交流群](https://t.me/glue_coding)
+    *   [Telegram 频道](https://t.me/tradecat_ai_channel)
+*   **个人分享**:
+    *   [我的学习经验](./documents/学习经验.md)
+    *   [编程书籍推荐](./documents/编程书籍推荐.md)
+*   **核心资源**:
+    *   [**元提示词库**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=1770874220#gid=1770874220): 用于生成提示词的高级提示词集合。
+    *   [**元技能 (Meta-Skill)**](./skills/claude-skills/SKILL.md): 用于生成 Skills 的 Skill。
+    *   [**技能库 (Skills)**](./skills): 可直接集成的模块化技能仓库。
+    *   [**技能生成器**](https://github.com/yusufkaraaslan/Skill_Seekers): 将任何资料转化为 Agent 可用技能的工具。
+    *   [**在线提示词数据库**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=2093180351#gid=2093180351&range=A1): 包含数百个适用于各场景的用户及系统提示词的在线表格。
+    *   [**第三方系统提示词仓库**](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools): 汇集了多种 AI 工具的系统提示词。
+*   **项目内部文档**:
+    *   [**prompts-library 工具说明**](./libs/external/prompts-library/): 该工具支持在 Excel 和 Markdown 格式之间转换提示词，并包含数百个精选提示词。
+    *   [**coding_prompts 集合**](./prompts/coding_prompts/): 适用于 Vibe Coding 流程的专用提示词。
+    *   [**系统提示词构建原则**](./documents/系统提示词构建原则.md): 关于如何构建高效、可靠的 AI 系统提示词的综合指南。
+    *   [**开发经验总结**](./documents/开发经验.md): 包含变量命名、文件结构、编码规范、架构原则等实践经验。
+    *   [**通用项目架构模板**](./documents/通用项目架构模板.md): 提供多种项目类型的标准目录结构与最佳实践。
+    *   [**Augment MCP 配置文档**](./documents/auggie-mcp配置文档.md): Augment 上下文引擎的详细配置说明。
+    *   [**system_prompts 集合**](./prompts/system_prompts/): 用于指导 AI 开发的系统提示词，包含多个版本的开发规范与思维框架。
 
 ---
 
 ### 项目目录结构概览
 
-本项目 `vibe-coding-cn` 的核心结构主要围绕知识管理、AI 提示词的组织与自动化展开。以下是经过整理和简化的目录树及各部分说明：
+`vibe-coding-cn` 项目的核心是围绕知识管理、AI 提示词的组织与自动化而构建。以下是其简化的目录结构说明：
 
 ```
 .
-├── CODE_OF_CONDUCT.md           # 社区行为准则，规范贡献者行为。
-├── CONTRIBUTING.md              # 贡献指南，说明如何为本项目做出贡献。
-├── GEMINI.md                    # AI 助手的上下文文档，包含项目概述、技术栈和文件结构。
-├── LICENSE                      # 开源许可证文件。
-├── Makefile                     # 项目自动化脚本，用于代码检查、构建等。
-├── README.md                    # 项目主文档，包含项目概览、使用指南、资源链接等。
-├── .gitignore                   # Git 忽略文件。
-├── AGENTS.md                    # AI 代理相关的文档或配置。
-├── CLAUDE.md                    # AI 助手的核心行为准则或配置。
-│
 ├── backups/                     # 项目备份脚本。
-│   ├── gz/                      # 备份文件存放目录。
-│   ├── 一键备份.sh                # 一键执行备份的 Shell 脚本。
-│   └── 快速备份.py                # 实际执行逻辑的 Python 脚本。
-│
-├── documents/                   # 存放各类说明文档、经验总结和配置详细说明。
-│   ├── auggie-mcp配置文档.md      # Augment 上下文引擎配置文档。
-│   ├── 代码组织.md                # 代码组织与结构相关文档。
-│   ├── ... (其他文档)
-│
-├── libs/                        # 通用库代码，用于项目内部模块化。
+├── documents/                   # 各类说明文档、经验总结和配置详情。
+├── libs/                        # 通用库代码，包含内部模块和外部工具。
 │   ├── common/                  # 通用功能模块。
-│   │   ├── models/              # 模型定义。
-│   │   │   └── __init__.py
-│   │   └── utils/               # 工具函数。
-│   │       └── backups/         # 内部备份工具。
 │   ├── database/                # 数据库相关模块。
-│   │   └── .gitkeep             # 占位文件，确保目录被 Git 跟踪。
-│   └── external/                # 外部集成模块。
-│       ├── my-nvim/             # 用户的 Neovim 配置。
-│       ├── prompts-library/     # 提示词库管理工具（Excel-Markdown 转换）。
-│       │   ├── main.py          # 提示词库管理工具主入口。
-│       │   ├── scripts/         # 包含 Excel 与 Markdown 互转脚本和配置。
-│       │   ├── prompt_excel/    # 存放 Excel 格式的原始提示词数据。
-│       │   ├── prompt_docs/     # 存放从 Excel 转换而来的 Markdown 提示词文档。
-│       │   └── ... (其他 prompts-library 内部文件)
-│       └── XHS-image-to-PDF-conversion/ # 小红书图片转PDF工具。
+│   └── external/                # 外部集成工具，如 prompts-library。
+├── prompts/                     # 核心资产：集中管理的各类型 AI 提示词。
+│   ├── coding_prompts/          # 编程与代码生成专用提示词。
+│   ├── system_prompts/          # AI 系统级行为与框架提示词。
+│   └── user_prompts/            # 用户自定义提示词。
+├── skills/                      # 模块化技能库，提供特定领域的工具和知识。
 │
-├── prompts/                     # 集中存放所有类型的 AI 提示词。
-│   ├── assistant_prompts/       # 辅助类提示词。
-│   ├── coding_prompts/          # 专门用于编程和代码生成相关的提示词集合。
-│   │   └── ... (具体编程提示词文件)
-│   │
-│   ├── system_prompts/          # AI 系统级提示词，用于设定 AI 行为和框架。
-│   │   └── ... (其他系统提示词)
-│   │
-│   └── user_prompts/            # 用户自定义或常用提示词。
-│       ├── ASCII图生成.md         # ASCII 艺术图生成提示词。
-│       ├── 数据管道.md            # 数据管道处理提示词。
-│       └── ... (其他用户提示词)
-│
-├── skills/                      # 集中存放所有类型的 skills 技能。
-    ├── claude-skills            # 生成 SKILL 的元 SKILL
-    │   ├── SKILL.md
-    │   └── ... (其他)
-    └── ... (与其他 skill)
+├── .gitignore                   # Git 忽略文件配置。
+├── AGENTS.md                    # AI Agent 的行为准则与配置。
+├── CLAUDE.md                    # Claude 模型的核心行为准则与配置。
+├── CODE_OF_CONDUCT.md           # 社区行为准则。
+├── CONTRIBUTING.md              # 贡献指南。
+├── GEMINI.md                    # Gemini 模型的上下文与指令。
+├── LICENSE                      # 项目开源许可证。
+├── Makefile                     # 项目自动化任务脚本（如代码检查、备份）。
+└── README.md                    # 项目主文档。
 ```
----
 
-## 🖼️ 概览与演示
-
-一句话：Vibe Coding = **规划驱动 + 上下文固定 + AI 结对执行**，让「从想法到可维护代码」变成一条可审计的流水线，而不是一团无法迭代的巨石文件。
-
-**你能得到**
-- 成体系的提示词工具链：`prompts/system_prompts/` 约束 AI 行为边界，`prompts/coding_prompts/` 提供需求澄清、计划、执行的全链路脚本。
-- 闭环交付路径：需求 → 上下文文档 → 实施计划 → 分步实现 → 自测 → 进度记录，全程可复盘、可移交。
 ---
 
 ## ⚙️ 架构与工作流程
 
-核心资产映射：
-```
-prompts/
-  coding_prompts/        # 需求澄清、计划、执行链的核心提示词
-  system_prompts/        # 约束 AI 行为边界的系统级提示词
-  assistant_prompts/     # 辅助/配合型提示
-  user_prompts/          # 可复用的用户侧提示词
-  prompts-library/       # Excel↔Markdown 提示词转换与索引工具
-documents/
-  代码组织.md, 通用项目架构模板.md, 开发经验.md, 系统提示词构建原则.md 等知识库
-backups/
-  一键备份.sh, 快速备份.py  # 本地/远端快照脚本
-```
+Vibe Coding 的核心工作流可以概括为：**规划驱动 + 上下文固定 + AI 结对执行**。它旨在将“从想法到可维护代码”的过程转变为一个可审计、可迭代的流水线。
+
+**您将获得**:
+- **成体系的提示词工具链**: 利用 `system_prompts` 约束 AI 行为边界，`coding_prompts` 提供从需求澄清、规划到执行的全链路支持。
+- **闭环交付路径**: 遵循“需求 -> 上下文文档 -> 实施计划 -> 分步实现 -> 测试 -> 进度记录”的流程，确保全程可追溯、可移交。
 
 ```mermaid
 graph TB
-  %% GitHub 兼容简化版（仅使用基础语法）
-
   subgraph ext_layer[外部系统与数据源层]
     ext_contrib[社区贡献者]
     ext_sheet[Google 表格 / 外部表格]
@@ -372,14 +282,14 @@ graph TB
 <details>
 <summary>📈 性能基准 (可选)</summary>
 
-本仓库定位为「流程与提示词」而非性能型代码库，建议跟踪下列可观测指标（当前主要依赖人工记录，可在 `progress.md` 中打分/留痕）：
+本仓库主要关注流程与提示词质量，而非代码性能。建议通过以下可观测指标进行追踪（当前依赖人工记录）：
 
-| 指标 | 含义 | 当前状态/建议 |
+| 指标 | 含义 | 建议记录方式 |
 |:---|:---|:---|
-| 提示命中率 | 一次生成即满足验收的比例 | 待记录；每个任务完成后在 progress.md 记 0/1 |
-| 周转时间 | 需求 → 首个可运行版本所需时间 | 录屏时标注时间戳，或用 CLI 定时器统计 |
-| 变更可复盘度 | 是否同步更新上下文/进度/备份 | 通过手工更新；可在 backups 脚本中加入 git tag/快照 |
-| 例程覆盖 | 是否有最小可运行示例/测试 | 建议每个示例项目保留 README+测试用例 |
+| 提示命中率 | 一次生成即满足验收标准的比例。 | 在任务完成后于 `progress.md` 中记录 0/1。 |
+| 周转时间 | 从需求提出到首个可运行版本所需的时间。 | 通过录屏或 CLI 定时器进行统计。 |
+| 变更可追溯性 | 是否同步更新了上下文、进度及备份。 | 通过手动更新或在备份脚本中集成版本标签实现。 |
+| 示例覆盖率 | 是否为每个模块提供了最小可运行示例或测试用例。 | 建议每个示例项目都包含独立的 README 和测试。 |
 
 </details>
 
@@ -404,16 +314,14 @@ gantt
 
 ---
 
-## 🚀 入门指南（这里是原作者的，不是我写的，我更新了一下我认为最好的模型）
-要开始 Vibe Coding，你只需要以下两种工具之一：
-- **Claude Opus 4.5**，在 Claude Code 中使用
-- **gpt-5.1-codex.1-codex (xhigh)**，在 Codex CLI 中使用
+## 🚀 入门指南
+*本节内容源自原作者，并根据当前推荐模型进行了更新。*
 
-本指南同时适用于 CLI 终端版本和 VSCode 扩展版本（Codex 和 Claude Code 都有扩展，且界面更新）。
+要开始使用 Vibe Coding，您需要以下任一工具：
+- **Claude 3 Opus** (在 Claude Code 等平台使用)
+- **GPT-4/GPT-5 系列模型** (在 Codex CLI 等平台使用)
 
-*(注：本指南早期版本使用的是 **Grok 3**，后来切换到 **Gemini 2.5 Pro**，现在我们使用的是 **Claude 4.5**（或 **gpt-5.1-codex.1-codex (xhigh)**）)*
-
-*(注2：如果你想使用 Cursor，请查看本指南的 [1.1 版本](https://github.com/EnzeD/vibe-coding/tree/1.1.1)，但我们认为它目前不如 Codex CLI 或 Claude Code 强大)*
+本指南适用于 CLI 终端版本和 VSCode 扩展版本。
 
 ---
 
@@ -421,151 +329,122 @@ gantt
 <summary><strong>⚙️ 完整设置流程</strong></summary>
 
 <details>
-<summary><strong>1. 游戏设计文档（Game Design Document）</strong></summary>
+<summary><strong>1. 创建项目设计文档</strong></summary>
 
-- 把你的游戏创意交给 **gpt-5.1-codex** 或 **Claude Opus 4.5**，让它生成一份简洁的 **游戏设计文档**，格式为 Markdown，文件名为 `game-design-document.md`。
-- 自己审阅并完善，确保与你的愿景一致。初期可以很简陋，目标是给 AI 提供游戏结构和意图的上下文。不要过度设计，后续会迭代。
+-   将您的项目创意提交给 AI，并要求其生成一份简洁的 Markdown 格式**设计文档**（例如 `product-requirement-document.md`）。
+-   审查并完善该文档，确保其与您的愿景一致。初期版本可以简略，其核心目标是为 AI 提供关于项目结构和意图的上下文。
+
 </details>
 
 <details>
-<summary><strong>2. 技术栈与 <code>CLAUDE.md</code> / <code>Agents.md</code></strong></summary>
+<summary><strong>2. 确定技术栈并配置 AI 行为准则</strong></summary>
 
-- 让 **gpt-5.1-codex** 或 **Claude Opus 4.5** 为你的游戏推荐最合适的技术栈（例如：多人3D游戏用 ThreeJS + WebSocket），保存为 `tech-stack.md`。
-  - 要求它提出 **最简单但最健壮** 的技术栈。
-- 在终端中打开 **Claude Code** 或 **Codex CLI**，使用 `/init` 命令，它会读取你已创建的两个 .md 文件，生成一套规则来正确引导大模型。
-- **关键：一定要审查生成的规则。** 确保规则强调 **模块化**（多文件）和禁止 **单体巨文件**（monolith）。可能需要手动修改或补充规则。
-  - **极其重要：** 某些规则必须设为 **"Always"**（始终应用），确保 AI 在生成任何代码前都强制阅读。例如添加以下规则并标记为 "Always"：
-    > ```
-    > # 重要提示：
-    > # 写任何代码前必须完整阅读 memory-bank/@architecture.md（包含完整数据库结构）
-    > # 写任何代码前必须完整阅读 memory-bank/@game-design-document.md
-    > # 每完成一个重大功能或里程碑后，必须更新 memory-bank/@architecture.md
-    > ```
-  - 其他（非 Always）规则要引导 AI 遵循你技术栈的最佳实践（如网络、状态管理等）。
-  - *如果想要代码最干净、项目最优化，这一整套规则设置是强制性的。*
+-   让 AI 为您的项目推荐**最简单且最健壮**的技术栈，并保存为 `tech-stack.md`。
+-   在 AI 交互工具（如 Claude Code 或 Codex CLI）中，使用 `/init` 命令初始化 AI 的行为准则，使其读取您已创建的 `.md` 文件。
+-   **关键步骤**: 审查并调整生成的规则，确保其强调**模块化**并禁止生成**单体巨文件**。部分核心规则必须设为始终应用（"Always"），以强制 AI 在编码前阅读关键上下文文档。
+
 </details>
 
 <details>
-<summary><strong>3. 实施计划（Implementation Plan）</strong></summary>
+<summary><strong>3. 制定实施计划</strong></summary>
 
-- 将以下内容提供给 **gpt-5.1-codex** 或 **Claude Opus 4.5**：
-  - 游戏设计文档（`game-design-document.md`）
-  - 技术栈推荐（`tech-stack.md`）
-- 让它生成一份详细的 **实施计划**（Markdown 格式），包含一系列给 AI 开发者的分步指令。
-  - 每一步要小而具体。
-  - 每一步都必须包含验证正确性的测试。
-  - 严禁包含代码——只写清晰、具体的指令。
-  - 先聚焦于 **基础游戏**，完整功能后面再加。
+-   将设计文档和技术栈文档提供给 AI。
+-   要求 AI 生成一份详细的 Markdown 格式**实施计划**，其中包含一系列给开发者的分步指令。
+    -   每一步都应小而具体，并包含验证其正确性的测试方法。
+    -   计划中只应包含清晰的指令，而非代码。
+    -   初期聚焦于**核心功能**的实现。
+
 </details>
 
 <details>
-<summary><strong>4. 记忆库（Memory Bank）</strong></summary>
+<summary><strong>4. 构建记忆库 (Memory Bank)</strong></summary>
 
-- 新建项目文件夹，并在 VSCode 中打开。
-- 在项目根目录下创建子文件夹 `memory-bank`。
-- 将以下文件放入 `memory-bank`：
-  - `game-design-document.md`
-  - `tech-stack.md`
-  - `implementation-plan.md`
-  - `progress.md`（新建一个空文件，用于记录已完成步骤）
-  - `architecture.md`（新建一个空文件，用于记录每个文件的作用）
+-   在项目根目录下创建 `memory-bank` 子文件夹。
+-   将以下文件存入该文件夹：
+    -   `product-requirement-document.md`
+    -   `tech-stack.md`
+    -   `implementation-plan.md`
+    -   `progress.md` (空文件，用于记录开发进度)
+    -   `architecture.md` (空文件，用于记录系统架构)
+
 </details>
 
 </details>
 
 <details>
-<summary><strong>🎮 Vibe Coding 开发基础游戏</strong></summary>
+<summary><strong>💻 Vibe Coding 开发流程</strong></summary>
 
-现在进入最爽的阶段！
-
-<details>
-<summary><strong>确保一切清晰</strong></summary>
-
-- 在 VSCode 扩展中打开 **Codex** 或 **Claude Code**，或者在项目终端启动 Claude Code / Codex CLI。
-- 提示词：阅读 `/memory-bank` 里所有文档，`implementation-plan.md` 是否完全清晰？你有哪些问题需要我澄清，让它对你来说 100% 明确？
-- 它通常会问 9-10 个问题。全部回答完后，让它根据你的回答修改 `implementation-plan.md`，让计划更完善。
-</details>
+现在，我们开始核心开发流程。
 
 <details>
-<summary><strong>你的第一个实施提示词</strong></summary>
+<summary><strong>1. 澄清与确认</strong></summary>
 
-- 打开 **Codex** 或 **Claude Code**（扩展或终端）。
-- 提示词：阅读 `/memory-bank` 所有文档，然后执行实施计划的第 1 步。我会负责跑测试。在我验证测试通过前，不要开始第 2 步。验证通过后，打开 `progress.md` 记录你做了什么供后续开发者参考，再把新的架构洞察添加到 `architecture.md` 中解释每个文件的作用。
-- **永远** 先用 "Ask" 模式或 "Plan Mode"（Claude Code 中按 `shift+tab`），确认满意后再让 AI 执行该步骤。
-- **极致 Vibe：** 安装 [Superwhisper](https://superwhisper.com)，用语音随便跟 Claude 或 gpt-5.1-codex 聊天，不用打字。
-</details>
-
-<details>
-<summary><strong>工作流</strong></summary>
-
-- 完成第 1 步后：
-  - 把改动提交到 Git（不会用就问 AI）。
-  - 新建聊天（`/new` 或 `/clear`）。
-  - 提示词：阅读 memory-bank 所有文件，阅读 progress.md 了解之前的工作进度，然后继续实施计划第 2 步。在我验证测试前不要开始第 3 步。
-- 重复此流程，直到整个 `implementation-plan.md` 全部完成。
-</details>
+-   启动 AI 交互工具。
+-   **提问**: "请阅读 `/memory-bank` 文件夹中的所有文档。`implementation-plan.md` 的内容是否完全清晰？您有哪些问题需要我澄清，以确保计划对您而言是 100% 明确的？"
+-   在回答完 AI 的所有问题后，让其根据您的回答更新 `implementation-plan.md`。
 
 </details>
 
 <details>
-<summary><strong>✨ 添加细节功能</strong></summary>
+<summary><strong>2. 执行第一步</strong></summary>
 
-恭喜！你已经做出了基础游戏！可能还很粗糙、缺少功能，但现在可以尽情实验和打磨了。
-- 想要雾效、后期处理、特效、音效？更好的飞机/汽车/城堡？绝美天空？
-- 每增加一个主要功能，就新建一个 `feature-implementation.md`，写短步骤+测试。
-- 继续增量式实现和测试。
+-   **提问**: "请阅读 `/memory-bank` 中的所有文档，并执行实施计划的第 1 步。测试将由我负责。在测试通过之前，请不要开始第 2 步。验证通过后，请在 `progress.md` 中记录已完成的工作，并在 `architecture.md` 中更新架构信息。"
+-   建议使用 "Ask" 或 "Plan" 模式，在 AI 执行前确认其计划。
 
 </details>
 
 <details>
-<summary><strong>🐞 修复 Bug 与卡壳情况</strong></summary>
+<summary><strong>3. 迭代工作流</strong></summary>
+
+-   完成第 1 步后，提交代码变更到 Git。
+-   开始新的会话，并提问："请阅读 memory-bank 中的所有文件，并参考 `progress.md` 了解当前进度，然后继续实施计划的第 2 步。"
+-   重复此流程，直至完成整个实施计划。
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>✨ 增补功能</strong></summary>
+
+在完成核心功能后，您可以开始进行实验和功能扩展。
+-   对于每个主要的新功能，创建一个独立的 `feature-implementation.md`，其中包含简短的步骤和测试方法。
+-   继续采用增量式的方式实现和测试。
+
+</details>
+
+<details>
+<summary><strong>🐞 故障排查</strong></summary>
 
 <details>
 <summary><strong>常规修复</strong></summary>
 
-- 如果某个提示词失败或搞崩了项目：
-  - Claude Code 用 `/rewind` 回退；用 gpt-5.1-codex 的话多提交 git，需要时 reset。
-- 报错处理：
-  - **JavaScript 错误：** 打开浏览器控制台（F12），复制错误，贴给 AI；视觉问题截图发给它。
-  - **懒人方案：** 安装 [BrowserTools](https://browsertools.agentdesk.ai/installation)，自动复制错误和截图。
+-   **回滚**: 如果 AI 的某次操作导致问题，使用版本控制工具（如 `git reset`）或 AI 工具自带的回滚命令（如 `/rewind`）恢复到之前的状态。
+-   **错误处理**: 将浏览器控制台中的错误信息或问题截图提供给 AI 进行分析。
+
 </details>
 
 <details>
-<summary><strong>疑难杂症</strong></summary>
+<summary><strong>疑难问题</strong></summary>
 
-- 实在卡住：
-  - 回退到上一个 git commit（`git reset`），换新提示词重试。
-- 极度卡壳：
-  - 用 [RepoPrompt](https://repoprompt.com/) 或 [uithub](https://uithub.com/) 把整个代码库合成一个文件，然后丢给 **gpt-5.1-codex 或 Claude** 求救。
+-   **重试**: 如果某个问题难以解决，回退到上一个稳定的版本，并尝试用不同的提示词或方法重新实现。
+-   **全局上下文**: 在极端情况下，可使用 `RepoPrompt` 等工具将整个代码库打包为一个文件，并提交给 AI 以获得全局性的解决方案。
+
 </details>
 
 </details>
 
 <details>
-<summary><strong>💡 技巧与窍门</strong></summary>
+<summary><strong>💡 提示与技巧</strong></summary>
 
 <details>
-<summary><strong>Claude Code & Codex 使用技巧</strong></summary>
+<summary><strong>AI 工具使用技巧</strong></summary>
 
-- **终端版 Claude Code / Codex CLI：** 在 VSCode 终端里运行，能直接看 diff、喂上下文，不用离开工作区。
-- **Claude Code 的 `/rewind`：** 迭代跑偏时一键回滚到之前状态。
-- **自定义命令：** 创建像 `/explain $参数` 这样的快捷命令，触发提示词：“深入分析代码，彻底理解 $参数 是怎么工作的。理解完告诉我，我再给你任务。” 让模型先拉满上下文再改代码。
-- **清理上下文：** 经常用 `/clear` 或 `/compact`（保留历史对话）。
-- **省时大法（风险自负）：** 用 `claude --dangerously-skip-permissions` 或 `codex --yolo`，彻底关闭确认弹窗。
-</details>
+-   **终端集成**: 在 VSCode 终端中运行 AI CLI 工具，可以直接查看文件差异并提供上下文，无需离开工作区。
+-   **自定义命令**: 创建自定义快捷命令，以触发特定提示词，从而让模型在修改代码前充分理解上下文。
+-   **上下文管理**: 适时使用 `/clear` 或 `/compact` 等命令清理或压缩上下文。
+-   **高阶指令**: 通过加入 "请一步一步思考" 或 "ultrathink" 等关键词，引导 AI 进行更深度的思考。
 
-<details>
-<summary><strong>其他实用技巧</strong></summary>
-
-- **小修改：** 用 gpt-5.1-codex (medium)
-- **写顶级营销文案：** 用 Opus 4.1
-- **生成优秀 2D 精灵图：** 用 ChatGPT + Nano Banana
-- **生成音乐：** 用 Suno
-- **生成音效：** 用 ElevenLabs
-- **生成视频：** 用 Sora 2
-- **提升提示词效果：**
-  - 加一句：“慢慢想，不着急，重要的是严格按我说的做，执行完美。如果我表达不够精确请提问。”
-  - 在 Claude Code 中触发深度思考的关键词强度：`think` < `think hard` < `think harder` < `ultrathink`。
 </details>
 
 </details>
@@ -573,17 +452,14 @@ gantt
 <details>
 <summary><strong>❓ 常见问题解答 (FAQ)</strong></summary>
 
-- **Q: 我在做应用不是游戏，这个流程一样吗？**
-  - **A:** 基本完全一样！把 GDD 换成 PRD（产品需求文档）即可。你也可以先用 v0、Lovable、Bolt.new 快速原型，再把代码搬到 GitHub，然后克隆到本地用本指南继续开发。
+-   **Q: 此流程是否适用于非游戏应用开发？**
+    -   **A:** 是的，基本流程完全适用。只需将“游戏设计文档”替换为“产品需求文档 (PRD)”即可。
 
-- **Q: 你那个空战游戏的飞机模型太牛了，但我一个提示词做不出来！**
-  - **A:** 那不是一个提示词，是 ~30 个提示词 + 专门的 `plane-implementation.md` 文件引导的。用精准指令如“在机翼上为副翼切出空间”，而不是“做一个飞机”这种模糊指令。
+-   **Q: 为何推荐使用原生 CLI 工具而非 Cursor 等集成环境？**
+    -   **A:** 这主要取决于个人偏好。我们认为原生 CLI 工具能更好地发挥底层模型的全部实力，并且具有更强的灵活性和可定制性，适用于远程服务器等多种场景。
 
-- **Q: 为什么现在 Claude Code 或 Codex CLI 比 Cursor 更强？**
-  - **A:** 完全看个人喜好。我们强调的是：Claude Code 能更好发挥 Claude Opus 4.5 的实力，Codex CLI 能更好发挥 gpt-5.1-codex 的实力，而 Cursor 对这两者的利用都不如原生终端版。终端版还能在任意 IDE、使用 SSH 远程服务器等场景工作，自定义命令、子代理、钩子等功能也能长期大幅提升开发质量和速度。最后，即使你只是低配 Claude 或 ChatGPT 订阅，也完全够用。
-
-- **Q: 我不会搭建多人游戏的服务器怎么办？**
-  - **A:** 问你的 AI。
+-   **Q: 我不了解如何搭建服务器，该怎么办？**
+    -   **A:** 请咨询您的 AI 助手。
 
 </details>
 
@@ -591,41 +467,30 @@ gantt
 
 ## 📞 联系方式
 
-GitHub: https://github.com/tukuaiai
-
-推特：https://x.com/123olp
-
-telegram：https://t.me/desci0
-
-telegram交流群：https://t.me/glue_coding
-
-telegram频道：https://t.me/tradecat_ai_channel
-
-邮箱（不一定能及时看到）：tukuai.ai@gmail.com
+-   **GitHub**: [tukuaiai](https://github.com/tukuaiai)
+-   **Twitter / X**: [123olp](https://x.com/123olp)
+-   **Telegram**: [@desci0](https://t.me/desci0)
+-   **Telegram 交流群**: [glue_coding](https://t.me/glue_coding)
+-   **Telegram 频道**: [tradecat_ai_channel](https://t.me/tradecat_ai_channel)
+-   **邮箱**: tukuai.ai@gmail.com (回复可能不及时)
 
 ---
 
-## ✨ 赞助地址
+## ✨ 支持项目
 
-救救孩子！！！钱包被ai们榨干了，求让孩子蹭蹭会员求求求求求求求求求了（可以tg或者x联系我）🙏🙏🙏
+救救孩子，感谢了，好人一生平安🙏🙏🙏
 
-**Tron (TRC20)**: `TQtBXCSTwLFHjBqTS4rNUp7ufiGx51BRey`
-
-**Solana**: `HjYhozVf9AQmfv7yv79xSNs6uaEU5oUk2USasYQfUYau`
-
-**Ethereum (ERC20)**: `0xa396923a71ee7D9480b346a17dDeEb2c0C287BBC`
-
-**BNB Smart Chain (BEP20)**: `0xa396923a71ee7D9480b346a17dDeEb2c0C287BBC`
-
-**Bitcoin**: `bc1plslluj3zq3snpnnczplu7ywf37h89dyudqua04pz4txwh8z5z5vsre7nlm`
-
-**Sui**: `0xb720c98a48c77f2d49d375932b2867e793029e6337f1562522640e4f84203d2e`
-
-**币安uid支付**: `572155580`
+-   **Tron (TRC20)**: `TQtBXCSTwLFHjBqTS4rNUp7ufiGx51BRey`
+-   **Solana**: `HjYhozVf9AQmfv7yv79xSNs6uaEU5oUk2USasYQfUYau`
+-   **Ethereum (ERC20)**: `0xa396923a71ee7D9480b346a17dDeEb2c0C287BBC`
+-   **BNB Smart Chain (BEP20)**: `0xa396923a71ee7D9480b346a17dDeEb2c0C287BBC`
+-   **Bitcoin**: `bc1plslluj3zq3snpnnczplu7ywf37h89dyudqua04pz4txwh8z5z5vsre7nlm`
+-   **Sui**: `0xb720c98a48c77f2d49d375932b2867e793029e6337f1562522640e4f84203d2e`
+-   **币安 UID**: `572155580`
 
 ---
 
-### ✨ 贡献者们
+### ✨ 贡献者
 
 感谢所有为本项目做出贡献的开发者！
 
@@ -635,10 +500,10 @@ telegram频道：https://t.me/tradecat_ai_channel
 </a>
 
 <p>特别鸣谢以下成员的宝贵贡献 (排名不分先后):<br/>
-<a href="https://x.com/shao__meng">@shao__meng</a> | 
-<a href="https://x.com/0XBard_thomas">@0XBard_thomas</a> | 
-<a href="https://x.com/Pluvio9yte">@Pluvio9yte</a> | 
-<a href="https://x.com/xDinoDeer">@xDinoDeer</a>
+<a href="https://x.com/shao__meng">@shao__meng</a> |
+<a href="https://x.com/0XBard_thomas">@0XBard_thomas</a> |
+<a href="https://x.com/Pluvio9yte">@Pluvio9yte</a> |
+<a href="https://x.com/xDinoDeer">@xDinoDeer</a> |
 <a href="https://x.com/geekbb">@geekbb</a>
 </p>
 
@@ -646,9 +511,9 @@ telegram频道：https://t.me/tradecat_ai_channel
 
 ## 🤝 参与贡献
 
-我们热烈欢迎各种形式的贡献！如果您对本项目有任何想法或建议，请随时开启一个 [Issue](https://github.com/tukuaiai/vibe-coding-cn/issues) 或提交一个 [Pull Request](https://github.com/tukuaiai/vibe-coding-cn/pulls)。
+我们热烈欢迎各种形式的贡献。如果您对本项目有任何想法或建议，请随时开启一个 [Issue](https://github.com/tukuaiai/vibe-coding-cn/issues) 或提交一个 [Pull Request](https://github.com/tukuaiai/vibe-coding-cn/pulls)。
 
-在您开始之前，请花点时间阅读我们的 [**贡献指南 (CONTRIBUTING.md)**](CONTRIBUTING.md) 和 [**行为准则 (CODE_OF_CONDUCT.md)**](CODE_OF_CONDUCT.md)。
+在您开始之前，请花时间阅读我们的 [**贡献指南 (CONTRIBUTING.md)**](CONTRIBUTING.md) 和 [**行为准则 (CODE_OF_CONDUCT.md)**](CODE_OF_CONDUCT.md)。
 
 ---
 
@@ -660,7 +525,7 @@ telegram频道：https://t.me/tradecat_ai_channel
 
 <div align="center">
 
-**如果这个项目对您有帮助，请不要吝啬您的 Star ⭐！**
+**如果这个项目对您有帮助，请考虑为其点亮一颗 Star ⭐！**
 
 ## Star History
 
@@ -674,6 +539,7 @@ telegram频道：https://t.me/tradecat_ai_channel
 
 ---
 
-**Made with ❤️ and a lot of ☕ by [tukuaiai](https://github.com/tukuaiai),[Nicolas Zullo](https://x.com/NicolasZu)and [123olp](https://x.com/123olp)**
+**由 [tukuaiai](https://github.com/tukuaiai), [Nicolas Zullo](https://x.com/NicolasZu), 和 [123olp](https://x.com/123olp) 倾力打造**
 
-[⬆ 回到顶部](#vibe-coding-至尊超级终极无敌指南-V114514)
+[⬆ 返回顶部](#vibe-coding-指南)
+</div>
