@@ -1,6 +1,6 @@
 # 关于手机ssh任意位置链接本地计算机，基于frp实现的方法
 
-不会弄怎么办？服务器和电脑都按照好codex，然后把文档粘贴到codex里面让他帮你配置好就行，实在不会弄，直接找我，telegram=https://t.me/desci0 x=https://x.com/123olp （ps：报酬是给我蹭用你的cc或者codex会员，我会另外提供能力范围内的技术支持嘻嘻 ^_^）
+不会弄怎么办？服务器和电脑都安装好codex（不会直接问gpt怎么安装，终端输入命令就行了），然后把文档粘贴到codex里面让他帮你配置好就行，实在不会弄，直接找我，telegram=https://t.me/desci0 x=https://x.com/123olp （ps：报酬是给我蹭用你的cc或者codex会员，我会另外提供能力范围内的技术支持嘻嘻 ^_^）
 
 # 📌 前置准备工作（Prerequisites）
 
