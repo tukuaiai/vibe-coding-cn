@@ -25,7 +25,7 @@ libs/external/
 
 - `chat-vault/`：AI 聊天记录保存工具，支持 Codex/Kiro/Gemini/Claude CLI（详见 [`chat-vault/README_CN.md`](./chat-vault/README_CN.md)）
 - `prompts-library/`：提示词 Excel ↔ Markdown 批量互转与索引生成（详见 [`prompts-library/README.md`](./prompts-library/README.md)）
-- `system-prompts-and-models-of-ai-tools-main-cn/`：AI 工具系统提示词集合，含 Claude/ChatGPT/Cursor 等（详见 [`system-prompts-and-models-of-ai-tools-main-cn/README.md`](./system-prompts-and-models-of-ai-tools-main-cn/README.md)）
+- `system-prompts-and-models-of-ai-tools-main-cn/`：AI 工具系统提示词集合（中文翻译版），含 Claude/ChatGPT/Cursor 等（详见 [`system-prompts-and-models-of-ai-tools-main-cn/README.md`](./system-prompts-and-models-of-ai-tools-main-cn/README.md)）
 - `l10n-tool/`：多语言批量翻译脚本
 - `my-nvim/`：个人 Neovim 配置（详见 [`my-nvim/README.md`](./my-nvim/README.md)）
 - `MCPlayerTransfer/`：MC 玩家迁移工具
